@@ -1,0 +1,76 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+.header h1 {
+    margin: 0;
+    flex: 6;
+}
+
+.header .header-actions {
+    display: flex;
+    flex-direction: row;
+    flex: 6;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header .header-actions .icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.header .header-actions .profile {
+    display: flex;
+    align-items: center;
+}
+
+.header .header-actions .profile .profile-icon {
+    background-color: #D6A0A0;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: block;
+    margin-right: 8px;
+}
+
+.seasons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.seasons .season-card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    width: 200px;
+}
+
+.seasons .season-card img {
+    width: 36px;
+    height: 36px;
+}
+
+.seasons .season-card .season-detail {
+    margin-left: 8px;
+}
+
+.seasons .season-card .season-detail p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.seasons .season-card .season-detail span {
+    display: block;
+    color: #ccc;
+    font-size: 14px;
+}

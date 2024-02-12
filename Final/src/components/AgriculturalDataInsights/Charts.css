@@ -1,0 +1,85 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+.header h1 {
+    margin: 0;
+    flex: 6;
+}
+
+.header .header-actions {
+    display: flex;
+    flex-direction: row;
+    flex: 6;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header .header-actions .icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.header .header-actions .profile {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.data-chart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 12px;
+}
+
+.data-chart .data-chart-card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    width: 200px;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.data-chart img {
+    width: 36px;
+    height: 36px;
+    border-radius: 100px;
+
+}
+
+.graph-image {
+    width: 70vw;
+    height: auto;
+    margin-top: 20px;
+}
+
+.seasons .season-card .season-detail {
+    margin-left: 8px;
+}
+
+.seasons .season-card .season-detail p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.seasons .season-card .season-detail span {
+    display: block;
+    color: #ccc;
+    font-size: 14px;
+}

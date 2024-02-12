@@ -1,0 +1,80 @@
+.wrapper {
+    display: flex;
+    padding: 12px;
+    margin: 0 auto;
+}
+
+.wrapper .sidebar {
+    flex: 2;
+    flex-direction: column;
+    padding: 70px 12px 12px 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper .sidebar .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper .sidebar .logo h1 {
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.wrapper .sidebar .links {
+    margin-top: 50px;
+}
+
+.wrapper .sidebar .links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper .sidebar .links ul li {
+    display: block;
+    padding: 12px 0;
+    border-bottom: 1px dotted #000;
+}
+
+.wrapper .sidebar .links ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.wrapper .sidebar .links ul li a:hover,
+.wrapper .sidebar .links ul li a.active {
+    font-weight: 500;
+}
+
+.wrapper .sidebar .support {
+    margin-top: 50px;
+}
+
+.wrapper .sidebar .support h4,
+.wrapper .sidebar .support p {
+    margin: 0;
+}
+
+.wrapper .sidebar .support h4 {
+    margin-bottom: 10px;
+}
+
+.wrapper .sidebar .support p {
+    color: #8C8C8C;
+    font-size: 14px;
+}
+
+.wrapper .sidebar .support button {
+    margin-top: 10px;
+}
+
+.wrapper .content {
+    flex: 10;
+    padding: 12px;
+    height: 99vh;
+    overflow-y: auto;
+}

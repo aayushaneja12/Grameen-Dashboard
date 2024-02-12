@@ -1,0 +1,99 @@
+
+.kpi {
+    display: flex;
+    margin-top: 24px;
+}
+
+.kpi .kpi-maps {
+    flex: 9;
+    text-align: center;
+}
+
+.kpi .kpi-filters {
+    flex: 4;
+}
+
+.kpi .kpi-filters .filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Reset default select styles */
+.custom-select select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+}
+
+/* Style the custom select container */
+.custom-select {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+}
+
+/* Style the custom select arrow */
+.custom-select::after {
+    content: '\25BC'; /* Unicode character for down arrow */
+    position: absolute;
+    top: 50%;
+    right: 0.5em;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #ccc;
+}
+
+/* Style the custom select when it's focused */
+.custom-select select:focus + .custom-select::after {
+    color: #007bff; /* Change color on focus */
+}
+
+/* Style the custom select when an option is hovered */
+.custom-select select:hover {
+    background-color: #f0f0f0;
+}
+
+.download {
+    width: 24px;
+    height: 24px;
+}
+
+.state-data {
+    margin-top: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.state-data .state-card .state {
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.state-data .state-card .state:last-child {
+    border-bottom: none;
+}
+
+.state-data .state-card .state p {
+    font-weight: 500;
+    margin-bottom: 4px;
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.state-data .state-card .state span {
+    color: #8C8C8C;
+    font-size: 13px;
+}
+
+  
